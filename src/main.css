@@ -20,6 +20,22 @@ body {
     align-items: center;
 }
 
+#Error404Page {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#CoinsPage {
+    margin-top: 60px;
+}
+
 .rojoCarmesi {
     background-color: #A51C30;
+}
+
+.iconCrypto {
+    width: 3%;
 }

@@ -13,9 +13,13 @@ class IndexRouter {
                 {
                     return content.appendChild(pages.home());
                 }
+            case '#/coins':
+                {
+                    return content.appendChild(pages.coins());
+                }
             default:
                 {
-                    return console.log('Error 404');
+                    return content.appendChild(pages.error404());
                 }
         }
     }
